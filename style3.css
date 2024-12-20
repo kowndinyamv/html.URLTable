@@ -1,0 +1,352 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-transform: capitalize;
+}
+body{
+    background-image:linear-gradient(rgba(4,15,40,0.7),rgba(4,15,40,0.7)), url(../backgroundimage.jpg);
+    background-position:bottom;
+    background-size:cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+.class {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}   
+.navbar a{
+    text-align: end;
+    margin-right: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: capitalize;
+    color: aliceblue;
+    text-decoration: none;
+
+    
+}
+.navbar a:hover{
+    text-decoration: underline;
+    color: brown;
+    transition: 0.3s;
+}
+.text{
+    text-align: center;
+    margin-top: 300px;
+    color: white;
+}
+.text h1{
+    margin-bottom: 25px;
+}
+.text h2{
+    width: 900px;
+    margin-left: 300px;
+    margin-bottom: 25px;
+}
+.text button{
+    padding: 8px 25px;
+    cursor: pointer;
+}
+.text button:hover{
+    background-color: aqua;
+}
+
+
+.content h1{
+    color: chocolate;
+    text-align: center;
+    text-transform: capitalize;
+    margin-top: 350px;
+}
+.content h2{
+    width: 1000px ;
+    margin-left: 250px;
+    text-transform:initial;
+    font-size:large;
+}
+.prog{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 25px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+.type{
+    width: 300px;
+    height: 300px;
+    border: 2px solid #ccc;
+    padding: 15px;
+
+}
+.type h1{
+    text-align: center;
+}
+.type p{
+    text-align: justify;
+    margin-top: 15px;
+}
+.info h1{
+    text-align: center;
+    text-transform: capitalize;
+    font-weight:bold;
+    font-size:50px;
+}
+.info p{
+    
+    text-transform: inherit;
+    font-size: 20px;
+    width: 1200px;
+   margin-left: 150px;
+}
+.branch{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.loc1{
+    width: 300px;
+    height: 500px;
+    border-radius: 15px;
+}
+.loc1 img{
+   width: 300px;
+   height: 500px;
+   text-align: center;
+   border-radius: 15px;
+   border: 3px solid black;
+}
+h3{
+    text-align: center;
+    font-size: 50px;
+    text-transform: initial;
+}
+.heading p{
+    margin-left: 100px;
+    font-size: 20px;
+    text-transform:initial;
+    width: 1300px;
+}
+.facil{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.fac{
+    width: 250px;
+    height: 250px;
+    border: 1px black solid;
+    margin-top: 40px;
+    border-radius: 20px;
+    
+}
+.fac img{
+    width: 250px;
+    height:250px;
+    border-radius: 20px;
+}
+.prog1{
+    display: flex;
+    justify-content:space-evenly;
+    margin: 15px;
+}
+.type1{
+    width: 300px;
+    height: 400px;
+    box-sizing: border-box;
+    border-radius: 25px;
+}
+.type1 h1{
+    text-align: center;
+    text-transform:inherit;   
+}
+.type1 p{
+    
+    text-transform: inherit;
+    width: 250px;
+    text-align:justify;
+    margin-left: 30px;
+    margin-top: 10px;  
+}
+.opinion{
+    text-align: center;
+}
+.opinion h1{
+    color: red;
+}
+.opinion p{
+    width: 750px;
+    margin: 0px auto;
+}
+.comments{
+    display: flex;
+    gap:50px ;
+    justify-content:center;
+    margin: 40px;
+    margin-left: 200px;
+    align-items: center;
+    
+}
+.com{
+    width: 450px;
+    height: 250px;
+    border-radius: 20px;
+    border: 2px black solid;
+    text-align: center;
+    
+}
+.img{
+    width: 100px;
+    height: 100px; 
+    border-radius:50px;
+   margin-left: 5px;
+   text-align: center;
+   margin-bottom: 5px; 
+}
+.img img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    display: inline;   
+}
+.com  p{
+    width: 300px;
+       
+}
+.enroll{
+    background-image: url(C:\Users\Kowndinya\OneDrive\Desktop\bg.jpg);
+}
+
+.parent{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 15px;
+}
+.par{
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    height: fit-content;
+    border: 2px solid #ccc;
+    padding: 15px;
+}
+.img img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 8px;
+}
+.p p{
+    text-align: center;
+    display: inline;
+    margin-left: 15px;
+}
+
+.iage
+{
+    background-image: linear-gradient(rgba(4,15,40,0.7),rgba(4,15,40,0.7)),url(../basketball.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 300px;
+    margin-top: 15px;
+}
+.ctn h1{
+    padding-top: 50px;
+}
+
+.ctn h2{
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+}
+.ctn button{
+    margin-top: 40px;
+    cursor: pointer;
+    padding: 8px 25px;
+}
+.ctn button:hover{
+    background-color: aqua;
+}
+.about{
+    text-align: center;
+    margin-top: 15px;
+}
+.about h1{
+    margin-bottom: 25px;
+}
+.about p{
+    margin-bottom: 25px; 
+}
+.about a{
+    text-decoration: none;
+}
+.about a::before{
+    content: "made by me : ";
+    color: black;
+    cursor: alias;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
